@@ -26,3 +26,160 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.main-layout{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-layout .left{
+  min-height: 100vw;
+  width: 50vw;
+  background: #284554;
+}
+
+.main-layout .rigth{
+  min-height: 100vw;
+  width: 50vw;
+  background: #305461;
+}
+
+.new-contact .title{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.new-contact .title h1{
+  margin: 0;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.new-contact .fields{
+  padding: 20px 2vw 20px 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.new-contact .fields label{
+  color: #647c89;
+}
+.new-contact .fields input{
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #647c89;
+  color: #fff;
+  width: 44vw;
+  padding: 10px 5px 10px 5px;
+}
+.new-contact .fields input:focus{
+  outline: none;
+}
+
+.new-contact .fields button{
+  background: transparent;
+  padding: 10px 40px 10px 40px;
+  border: solid 2px #438d79;
+  border-radius: 10px;
+  color: #438d79;
+}
+.new-contact .fields button:hover{
+  border: solid 2px #51b59a;
+  color: #51b59a;
+}
+.new-contact .button{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.new-contact .fields button:focus{
+  outline: none;
+}
+
+.list-contacts .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.list-contacts .title h1{
+  margin: 0;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.list-contacts .contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid 1px #647c89;
+  padding: 10px;
+  width: 44vw;
+  margin: 0px 2vw 0px 2vw;
+}
+
+.list-contacts .contact .perfil{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.list-contacts .contact .perfil p{
+  margin: 0;
+  padding: 5px 0px 5px 0px;
+  color: white;
+}
+
+.list-contacts .contact .perfil span{
+  color: #647c89;
+  font-size: 0.8rem;
+}
+
+.list-contacts .contact .button button{
+  background: transparent;
+  border: none;
+  color: #34adc9;
+}
+
+.list-contacts .contact .button button:hover{
+  color: #22c6ec;
+}
+
+.list-contacts .contact .button button:focus{
+  outline: none;
+}
+
+.list-contacts .details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 2vw 10px 2vw;
+}
+.list-contacts .details .nunber p{
+  margin: 0;
+  padding: 4px;
+  color: #647c89;
+  font-size: 0.9rem;
+}
+.list-contacts .details .job p{
+  margin: 0;
+  padding: 4px;
+  color: #647c89;
+  font-size: 0.9rem;
+}
+.list-contacts{
+
+}
+.list-contacts{
+
+}
