@@ -75,3 +75,59 @@ export const Button = styled.div`
     background: #71f497;
   }
 `;
+
+export const ContainerContacts = styled.div`
+  width: 100%;
+`;
+
+export const ContactsList = styled.div`
+  width: 100%;
+  margin-top: 20px;
+  max-height: 85vh;
+  overflow:auto;
+`;
+
+export const ContactCard = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 8px 10px;
+  background: ${props => props.active ? '#71f4973d' : 'transparent'};
+  transition: .5s ease;
+  :hover{
+    background: #71f4973d;
+  }
+`;
+
+export const IconName = styled.div`
+  background: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: #71f497;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #71f497;
+`;
+
+export const ContactContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2{
+    margin: 0;
+    color: #fff;
+  }
+  div{
+    margin-left: 5px;
+    svg{
+      fill: #fff;
+      width: 25px;
+      height: 25px;
+      margin: 0 3px;
+    }
+  }
+`;
