@@ -82,8 +82,8 @@ export const ContainerContacts = styled.div`
 
 export const ContactsList = styled.div`
   width: 100%;
-  margin-top: 20px;
-  max-height: 85vh;
+  margin-top: 45px; 
+  max-height: 83vh;
   overflow:auto;
 `;
 
@@ -128,6 +128,59 @@ export const ContactContent = styled.div`
       width: 25px;
       height: 25px;
       margin: 0 3px;
+    }
+  }
+`;
+
+export const DetalhesMenu = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  svg{
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+  }
+`;
+
+export const DetalhesContent = styled.div`
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  label{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  input{
+    width: calc(100% - 16px);
+    margin: 5px 0;
+    background: transparent;
+    color: #71f497;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  button{
+    border: 2px solid #71f497;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    align-self: flex-end;
+    cursor: pointer;
+    background: transparent;
+    font-size: 16px;
+    margin: 20px 0;
+    transition: .5s ease;
+    :hover{
+      border-color: #fff;
+      color: #000;
+      background: #71f497;
     }
   }
 `;
